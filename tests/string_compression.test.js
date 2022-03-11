@@ -11,12 +11,12 @@ test('Tests the string \'aaabbbbcccceeeeefff\'', () => {
   expect(string_compression(string1)).toBe('3a4b4c5e3f');
 });
 
-test('Tests the string \'anmereeeee\'', () => {
-  expect(string_compression(string2)).toBe('anmereeeee');
-});
-
 test('Tests the string \'   fff  er    \'', () => {
   expect(string_compression(string3)).toBe('3 3f2 1e1r4 ');
+});
+
+test('Returns original string if it is shorter than the compressed result', () => {
+  expect(string_compression(string2)).toBe('anmereeeee');
 });
 
 test('Tests a long string', () => {
