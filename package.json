@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "two_sock": "jest ./tests/two_sock.test.js",
-    "string_compression": "jest ./tests/string_compression.test.js"
+    "string_compression": "jest ./tests/string_compression.test.js",
+    "binary_search": "jest ./tests/binary_search.test.js"
   },
   "author": "",
   "license": "ISC",
