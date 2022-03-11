@@ -16,15 +16,17 @@
   If you choose to go the recusive route, feel free to implement a recursive helper function that is called within binary_search.
   Just ensure that you return the value retured from the helper function inside binary_search.
 
-  @param {Array} source - The sorted array that you will use to search
-  @param {Number} target - The integer number to find in the source array
-  @return {Number} The index of the target element in the source array. Return -1 if element is not present in source array.
-
   ---- Resources ----
   Recursive explanation: https://www.youtube.com/watch?v=uEUXGcc2VXM&t=1s
   Iterative explanation: https://www.youtube.com/watch?v=C2apEw9pgtw
   
   What the hell is recursion?: https://www.youtube.com/watch?v=IJDJ0kBx2LM
+
+  ---- JSDOC ----
+
+  @param {Array} source - The sorted array that you will use to search
+  @param {Number} target - The integer number to find in the source array
+  @return {Number} The index of the target element in the source array. Return -1 if element is not present in source array.
 */
 
 const binary_search = (source, target) => {
