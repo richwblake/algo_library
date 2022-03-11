@@ -12,7 +12,7 @@
   @return {String} - The value of the color of the first sock pair that is found
 */
 const two_sock = (n) => {
-  return null;
+
 };
 
 module.exports = two_sock;
