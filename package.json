@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "two_sock": "jest ./tests/two_sock.test.js"
+    "two_sock": "jest ./tests/two_sock.test.js",
+    "string_compression": "jest ./tests/string_compression.test.js"
   },
   "author": "",
   "license": "ISC",
