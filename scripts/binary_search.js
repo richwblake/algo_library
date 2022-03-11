@@ -30,10 +30,12 @@
 
   @param {Array} source - The sorted array that you will use to search
   @param {Number} target - The integer number to find in the source array
+  @param {Number} l - The left pointer used to point to the left part of the current subarray
+  @param {Number} r - The right pointer used to point to the right part of the current subarray
   @return {Number} The index of the target element in the source array. Return -1 if element is not present in source array.
 */
 
-const binary_search = (source, target) => {
+const binary_search = (source, target, l, r) => {
 
 };
 
