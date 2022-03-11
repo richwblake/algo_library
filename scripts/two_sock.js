@@ -6,9 +6,13 @@
   Write an algorithm that takes in a collection (array) of colored socks, and return the color of
   the first sock pair present in the collection.
 
+  If there are no matches, return null
+
   @param {Array} n - The array of socks to search through
   @return {String} - The value of the color of the first sock pair that is found
 */
-export default two_sock = (n) => {
-  
+const two_sock = (n) => {
+  return null;
 };
+
+module.exports = two_sock;
